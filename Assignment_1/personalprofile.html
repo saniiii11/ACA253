@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="profile-header">
+      <img src="profilepic.jpg" alt="Profile Picture" class="profile-pic">
+      <h1>Sanidhya Singh</h1>
+      <p class="description">Hi! I'm a passionate learner interested in web development, ML, and technology. I love creating things on the web and exploring new skills.</p>
+    <button id="theme-toggle">Toggle Theme</button>
+    </div>
+
+    <section class="section">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Playing Cricket</li>
+        <li>Travelling the World</li>
+        <li>Watching films</li>
+        <li>Coding mini projects</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio site built with HTML, CSS, and JS to showcase my work.</p>
+      </div>
+      <div class="project">
+        <h3>WEB GENIE:WEBSITES WITH A PROMPT</h3>
+        <p>Created an LLM architecture capable of building code that displays on the user’s frontend - just from a prompt!</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="Ssanidhya.singh.06@gmail.com">Ssanidhya.singh.06@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/sani111" target="_blank">github.com/sani111</a></p>
+    </section>
+
+    <section class="section">
+      <h2>Skills and Courses</h2>
+      <ul id="skills-list">
+        <li>HTML & CSS</li>
+        <li>JavaScript Basics</li>
+        <li class="extra hidden">ESC111("Intro to C Programming") Grade:B+</li>
+        <li class="extra hidden">CS771</li>
+        <li class="extra hidden">Intro to Python</li>
+      </ul>
+      <button id="toggle-btn">Read More</button>
+      <button id="edit-btn">Edit</button>
+      <textarea id="edit-area" class="hidden" placeholder="Enter skills separated by commas"></textarea>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
